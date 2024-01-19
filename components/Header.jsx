@@ -1,13 +1,20 @@
-import React from "react"
+"use client";
 
-import ThemeToggler from "./ThemeToggler"
+import React, { useState, useEffect } from "react";
+
+//components
+import Logo from "./logo";
+import ThemeToggler from "./ThemeToggler";
 
 const Header = () => {
   return (
     <header>
+      <div className="container mx-auto">
+        <Logo />
         <ThemeToggler />
+      </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
