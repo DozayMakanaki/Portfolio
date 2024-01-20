@@ -20,7 +20,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Hero = () => {
   const [typeEffect] = useTypewriter({
-    words: ["Full-Stack Dev", "UI/UX Designer", "Mathematician"],
+    words: ["Full-Stack Dev", "UI/UX Designer", "Mathematician, i love you Ashely"],
     loop: {},
     cursor: "|",
     typeSpeed: 100,
@@ -36,7 +36,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 tracking-[4px]">
               I am a{" "}
               <span className="text-primary font-bold">{typeEffect}</span>
-              <Cursor cursorColor="green" />
+              <Cursor cursorColor="rgb(91, 201, 44)" />
             </div>
             <h1 className="h1 mb-4">
               <span className="font-light">Hello! I am </span>
@@ -51,7 +51,7 @@ const Hero = () => {
 
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0">
               <Link href="/contact">
-                <Button  className= 'gap-x-2'>
+                <Button className="gap-x-2">
                   Contact me <Send size={17} />
                 </Button>
               </Link>
