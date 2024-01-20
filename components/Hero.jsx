@@ -22,7 +22,7 @@ const Hero = () => {
   const [typeEffect] = useTypewriter({
     words: ["Full-Stack Dev", "UI/UX Designer", "Mathematician"],
     loop: {},
-    cursor: '|',
+    cursor: "|",
     typeSpeed: 100,
     deleteSpeed: 40,
   });
@@ -43,13 +43,19 @@ const Hero = () => {
               <br /> Dozie <span className="text-primary">Umeodinka</span>
             </h1>
 
-            <p className="subtitle">
+            <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               debitis ab, excepturi vel sus
             </p>
             {/* button */}
 
-            <div>Button</div>
+            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0">
+              <Link href="/contact">
+                <Button  className= 'gap-x-2'>
+                  Contact me <Send size={17} />
+                </Button>
+              </Link>
+            </div>
           </div>
           {/* image */}
           <div className="hidden xl:flex relative">image</div>
