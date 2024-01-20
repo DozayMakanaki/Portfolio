@@ -51,7 +51,7 @@ const Hero = () => {
 
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0">
               <Link href="/contact">
-                <Button className="gap-x-2">
+                <Button className="gap-x-2 hover:text-black dark:hover:text-white">
                   Contact me <Send size={17} />
                 </Button>
               </Link>
