@@ -20,7 +20,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Hero = () => {
   const [typeEffect] = useTypewriter({
-    words: ["Full-Stack Dev", "UI/UX Designer", "Mathematician, i love you Ashely"],
+    words: ["Full-Stack Dev", "UI/UX Designer", "Mathematician"],
     loop: {},
     cursor: "|",
     typeSpeed: 100,
