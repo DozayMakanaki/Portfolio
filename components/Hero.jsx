@@ -38,14 +38,18 @@ const Hero = () => {
               <span className="text-primary font-bold">{typeEffect}</span>
               <Cursor cursorColor="green" />
             </div>
-            <h1 className="h1">Hello! I am Dozie Umeodinka</h1>
+            <h1 className="h1 mb-4">
+              <span className="font-light">Hello! I am </span>
+              <br /> Dozie <span className="text-primary">Umeodinka</span>
+            </h1>
 
-            <p>
+            <p className="subtitle">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               debitis ab, excepturi vel sus
             </p>
             {/* button */}
-            
+
+            <div>Button</div>
           </div>
           {/* image */}
           <div className="hidden xl:flex relative">image</div>
